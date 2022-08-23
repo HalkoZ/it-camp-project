@@ -1,0 +1,30 @@
+html * {margin: 0;
+    padding: 0;}
+.glavni {background-image: url(lisce.jpg);
+height: 100vh; width: 100%;
+opacity: 0.8;}
+.prvi {background-color: rgb(201, 198, 198);
+height: 190px;  margin: auto;
+width: 60%; padding: 10px;
+border: none; border-radius: 10px;
+}
+.pfp {width: 150px; height: 150px;
+margin: 5px 13px 15px 15px; border: 2px solid lime;
+border-radius: 10px; padding: 10px;
+float: left;}
+.Ime {display: inline; vertical-align: top;
+font-size: 26px; font-weight: bolder;
+color: lime;}
+.ja {font-size: 19px; display: block; text-align: left;}
+
+.drugi {background-color: rgb(201, 198, 198);
+height: 300px; margin-top: 10px; margin-left: 260px; 
+width: 60%; padding: 10px;
+border: none; border-radius: 10px;}
+.rc {font-size: 26px; color: lime; font-weight: bolder;}
+table {border: 1px solid black; width: 100%;}
+td, th {border: 1px solid lime; font-family: Arial, Helvetica, sans-serif}
+.fav {font-size: 23px; color: Lime; font-weight: bolder;
+margin-top: 10px; margin-bottom: 5px;}
+.lista {font-size: 18px; margin-left: 20px;
+color: rgb(23, 207, 23); font-weight: bolder;}
