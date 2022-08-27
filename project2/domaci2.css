@@ -3,10 +3,11 @@ html * {margin: 0; padding: 0;}
 justify-content: space-evenly;
 align-items: center;
 height: 100vh;
-background-image: url(red.jpg);}
+background-image: url(red.jpg);
+background-size: cover;}
 
-.child {width: 350px; height: 350px;
-border: 1px solid gray;
+.child {width: 370px; height: 350px;
+border: 1px solid rgb(255, 0, 0);
 border-radius: 15px;}
 
 .one {background-color: rgb(231, 234, 236);}
@@ -16,16 +17,26 @@ border-radius: 15px;}
 img {width: 100%; height: 170px;
 border-top-left-radius: 15px;
 border-top-right-radius: 15px;}
-.category {font-size: 13px;
-color: gray; font-weight: 600;
+.category {font-size: 11px;
+color: rgb(144, 144, 144); font-weight: 600;
 margin: 10px 1px 5px 10px;}
 .naslov {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 margin: 5px 1px 10px 10px;
-font-weight: 500;}
-.text {margin: 10px;}
+font-weight: 500;
+font-size: 22px;}
+.text {margin: 10px; font-size: 18px;
+color: rgb(68, 53, 53);}
+
 .learn{margin: 10px;
 text-decoration: none;
+font-size: 18px;
+color: rgb(230, 97, 97);
 }
-.fa-regular {font-size: 13px; letter-spacing: 2px;
-color: gray;
-margin-left: 13em;}
+.fa-regular {font-size: 11px; letter-spacing: 2px;
+color: rgb(136, 102, 102);
+margin-left: 11em;}
+.lm {display: inline-block;
+}
+.fa-comment {margin: 0; font-size: 11px; letter-spacing: 2px;}
+.linija {font-size: 15px; margin-left: 5px;
+margin-right: 5px;}
