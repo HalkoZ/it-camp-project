@@ -1,0 +1,81 @@
+html * {margin: 0;
+    padding: 0;}
+.parent {background-color: #4877fb;
+height: 100vh;
+}
+.upper {
+display: flex; justify-content: flex-end;
+}
+.naslov {color: white; font-weight: bolder;
+font-size: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding-top: 10px;
+margin-right: 47%;
+}
+a {text-decoration: none;
+color: rgba(255, 255, 255, 0.753);
+padding: 16px 20px;
+margin-left: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover {color: white;}
+
+.middle {width: 90%;
+margin-top: 150px;
+}
+h1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white; font-weight: bolder;
+font-size: 50px; margin-left: 73px;}
+.text {color: rgba(255, 255, 255, 0.452);
+margin-left: 73px;}
+.dugme {margin-left: 73px;
+margin-top: 20px;
+background-color: #90acf8;
+padding: 13px;
+border: none;
+border-radius: 20px;
+color: white;
+width: 200px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 16px;}
+.dugme:hover {background-color: #87a5f8;
+cursor: pointer;}
+.dugme:active {background-color: #678df8;}
+img {width: 400px; height: 250px;
+float: right;}
+.bottom {background-color: rgb(212, 211, 211);
+display: flex; justify-content: center;
+align-items: center;
+height: 450px;}
+.child {height: 300px; width: 300px;
+background-color: white;
+border: 2px solid rgb(212, 211, 211);}
+
+.title {margin-top: 20px;
+margin-left: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+font-weight: 100;}
+.mes {margin-left: 25px; margin-top: 20px;
+font-size: 35px; color: #4877fb;}
+.words {margin-left: 25px; margin-top: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: gray;
+font-size: 17px;
+font-weight: lighter;}
+.arrow {margin-left: 25px; margin-top: 30px;
+padding: 13px;
+border: 2px solid gray; border-radius: 25px;
+font-size: 16px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bolder;
+color: white;
+background-color: gray;}
+.arrow:hover {background-color: rgb(165, 165, 165);
+border: 2px solid rgb(165, 165, 165);
+cursor: pointer;
+color: gray;}
+.arrow:active {background-color: rgb(207, 206, 206);
+border: 2px solid rgb(207, 206, 206);
+color: rgb(99, 99, 99);}
+
+
